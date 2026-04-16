@@ -1,0 +1,615 @@
+{
+  "schema_version": "1.0.0",
+  "repo": "draft-howe-vcon-lifecycle",
+  "repo_version": null,
+  "archetype": "ietf-draft",
+  "generated_at": "2026-04-16T15:15:44.290314+00:00",
+  "stats": {
+    "node_count": 66,
+    "edge_count": 28
+  },
+  "nodes": [
+    {
+      "id": "document:draft",
+      "type": "document",
+      "name": "draft-howe-vcon-lifecycle",
+      "file": "draft-howe-vcon-lifecycle.md"
+    },
+    {
+      "id": "section:introduction",
+      "type": "section",
+      "name": "Introduction",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 160,
+      "level": 1
+    },
+    {
+      "id": "section:acts-of-trust-and-transparency",
+      "type": "section",
+      "name": "Acts of Trust and Transparency",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 255,
+      "level": 2
+    },
+    {
+      "id": "section:standards-based-interoperability",
+      "type": "section",
+      "name": "Standards-Based Interoperability",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 264,
+      "level": 2
+    },
+    {
+      "id": "section:what-differentiates-scitt-from-a-database",
+      "type": "section",
+      "name": "What Differentiates SCITT from a Database",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 283,
+      "level": 2
+    },
+    {
+      "id": "section:conventions-and-definitions",
+      "type": "section",
+      "name": "Conventions and Definitions",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 293,
+      "level": 1
+    },
+    {
+      "id": "section:vcon-lifecycle",
+      "type": "section",
+      "name": "vCon Lifecycle",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 369,
+      "level": 1
+    },
+    {
+      "id": "section:example-use-case-consent-management",
+      "type": "section",
+      "name": "Example Use Case: Consent Management",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 371,
+      "level": 2
+    },
+    {
+      "id": "section:vcon-lifecycle-scope",
+      "type": "section",
+      "name": "vCon Lifecycle Scope",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 380,
+      "level": 2
+    },
+    {
+      "id": "section:creation-distribution-and-deletion",
+      "type": "section",
+      "name": "Creation, Distribution and Deletion",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 382,
+      "level": 3
+    },
+    {
+      "id": "section:digital-rights-management",
+      "type": "section",
+      "name": "Digital Rights Management",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 418,
+      "level": 3
+    },
+    {
+      "id": "section:amendment-of-existing-vcons",
+      "type": "section",
+      "name": "Amendment of Existing vCons",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 451,
+      "level": 3
+    },
+    {
+      "id": "section:detailed-use-case",
+      "type": "section",
+      "name": "Detailed Use Case",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 473,
+      "level": 1
+    },
+    {
+      "id": "section:vcon-create-consent-and-share",
+      "type": "section",
+      "name": "vCon Create, Consent and Share",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 475,
+      "level": 2
+    },
+    {
+      "id": "section:data-originator",
+      "type": "section",
+      "name": "Data Originator",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 534,
+      "level": 3
+    },
+    {
+      "id": "section:data-controller",
+      "type": "section",
+      "name": "Data Controller",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 547,
+      "level": 3
+    },
+    {
+      "id": "section:data-processor-s",
+      "type": "section",
+      "name": "Data Processor(s)",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 553,
+      "level": 3
+    },
+    {
+      "id": "section:revocation-and-the-right-to-be-forgotten",
+      "type": "section",
+      "name": "Revocation and the Right to Be Forgotten",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 562,
+      "level": 2
+    },
+    {
+      "id": "section:data-subject",
+      "type": "section",
+      "name": "Data Subject",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 599,
+      "level": 3
+    },
+    {
+      "id": "section:data-controller-revocation",
+      "type": "section",
+      "name": "Data Controller Revocation",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 607,
+      "level": 3
+    },
+    {
+      "id": "section:data-processor-revocation",
+      "type": "section",
+      "name": "Data Processor Revocation",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 613,
+      "level": 3
+    },
+    {
+      "id": "section:vcon-lifecycle-events",
+      "type": "section",
+      "name": "vCon Lifecycle Events",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 618,
+      "level": 1
+    },
+    {
+      "id": "section:security-considerations",
+      "type": "section",
+      "name": "Security Considerations",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 644,
+      "level": 1
+    },
+    {
+      "id": "section:privacy-considerations",
+      "type": "section",
+      "name": "Privacy Considerations",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 655,
+      "level": 1
+    },
+    {
+      "id": "section:iana-considerations",
+      "type": "section",
+      "name": "IANA Considerations",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 665,
+      "level": 1
+    },
+    {
+      "id": "section:references",
+      "type": "section",
+      "name": "References",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 669,
+      "level": 1
+    },
+    {
+      "id": "section:normative-references",
+      "type": "section",
+      "name": "Normative References",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 671,
+      "level": 2
+    },
+    {
+      "id": "section:informative-references",
+      "type": "section",
+      "name": "Informative References",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 678,
+      "level": 2
+    },
+    {
+      "id": "section:acknowledgments",
+      "type": "section",
+      "name": "Acknowledgments",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 687,
+      "level": 1
+    },
+    {
+      "id": "reference:rfc4119",
+      "type": "reference",
+      "name": "RFC 4119",
+      "url": "https://www.rfc-editor.org/rfc/rfc4119"
+    },
+    {
+      "id": "reference:rfc1952",
+      "type": "reference",
+      "name": "RFC 1952",
+      "url": "https://www.rfc-editor.org/rfc/rfc1952"
+    },
+    {
+      "id": "reference:rfc9110",
+      "type": "reference",
+      "name": "RFC 9110",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110"
+    },
+    {
+      "id": "reference:rfc8259",
+      "type": "reference",
+      "name": "RFC 8259",
+      "url": "https://www.rfc-editor.org/rfc/rfc8259"
+    },
+    {
+      "id": "reference:rfc7515",
+      "type": "reference",
+      "name": "RFC 7515",
+      "url": "https://www.rfc-editor.org/rfc/rfc7515"
+    },
+    {
+      "id": "reference:rfc7516",
+      "type": "reference",
+      "name": "RFC 7516",
+      "url": "https://www.rfc-editor.org/rfc/rfc7516"
+    },
+    {
+      "id": "reference:rfc7517",
+      "type": "reference",
+      "name": "RFC 7517",
+      "url": "https://www.rfc-editor.org/rfc/rfc7517"
+    },
+    {
+      "id": "reference:rfc6068",
+      "type": "reference",
+      "name": "RFC 6068",
+      "url": "https://www.rfc-editor.org/rfc/rfc6068"
+    },
+    {
+      "id": "reference:rfc6838",
+      "type": "reference",
+      "name": "RFC 6838",
+      "url": "https://www.rfc-editor.org/rfc/rfc6838"
+    },
+    {
+      "id": "reference:rfc2045",
+      "type": "reference",
+      "name": "RFC 2045",
+      "url": "https://www.rfc-editor.org/rfc/rfc2045"
+    },
+    {
+      "id": "reference:rfc8225",
+      "type": "reference",
+      "name": "RFC 8225",
+      "url": "https://www.rfc-editor.org/rfc/rfc8225"
+    },
+    {
+      "id": "reference:rfc5491",
+      "type": "reference",
+      "name": "RFC 5491",
+      "url": "https://www.rfc-editor.org/rfc/rfc5491"
+    },
+    {
+      "id": "reference:rfc5321",
+      "type": "reference",
+      "name": "RFC 5321",
+      "url": "https://www.rfc-editor.org/rfc/rfc5321"
+    },
+    {
+      "id": "reference:rfc3966",
+      "type": "reference",
+      "name": "RFC 3966",
+      "url": "https://www.rfc-editor.org/rfc/rfc3966"
+    },
+    {
+      "id": "reference:rfc8949",
+      "type": "reference",
+      "name": "RFC 8949",
+      "url": "https://www.rfc-editor.org/rfc/rfc8949"
+    },
+    {
+      "id": "reference:rfc8610",
+      "type": "reference",
+      "name": "RFC 8610",
+      "url": "https://www.rfc-editor.org/rfc/rfc8610"
+    },
+    {
+      "id": "reference:rfc8620",
+      "type": "reference",
+      "name": "RFC 8620",
+      "url": "https://www.rfc-editor.org/rfc/rfc8620"
+    },
+    {
+      "id": "reference:rfc7519",
+      "type": "reference",
+      "name": "RFC 7519",
+      "url": "https://www.rfc-editor.org/rfc/rfc7519"
+    },
+    {
+      "id": "reference:rfc6234",
+      "type": "reference",
+      "name": "RFC 6234",
+      "url": "https://www.rfc-editor.org/rfc/rfc6234"
+    },
+    {
+      "id": "reference:rfc5589",
+      "type": "reference",
+      "name": "RFC 5589",
+      "url": "https://www.rfc-editor.org/rfc/rfc5589"
+    },
+    {
+      "id": "reference:rfc7095",
+      "type": "reference",
+      "name": "RFC 7095",
+      "url": "https://www.rfc-editor.org/rfc/rfc7095"
+    },
+    {
+      "id": "reference:rfc2119",
+      "type": "reference",
+      "name": "RFC 2119",
+      "url": "https://www.rfc-editor.org/rfc/rfc2119"
+    },
+    {
+      "id": "reference:rfc8174",
+      "type": "reference",
+      "name": "RFC 8174",
+      "url": "https://www.rfc-editor.org/rfc/rfc8174"
+    },
+    {
+      "id": "reference:draft-peabody-dispatch-new-uuid-format",
+      "type": "reference",
+      "name": "draft-peabody-dispatch-new-uuid-format"
+    },
+    {
+      "id": "reference:draft-ietf-stir-passport-rcd",
+      "type": "reference",
+      "name": "draft-ietf-stir-passport-rcd"
+    },
+    {
+      "id": "reference:draft-james-privacy-primer-vcon",
+      "type": "reference",
+      "name": "draft-james-privacy-primer-vcon"
+    },
+    {
+      "id": "reference:draft-vcon",
+      "type": "reference",
+      "name": "draft-vcon"
+    },
+    {
+      "id": "reference:draft-scitt",
+      "type": "reference",
+      "name": "draft-scitt"
+    },
+    {
+      "id": "requirement:req-1",
+      "type": "requirement",
+      "name": "SHALL NOT: The key words \"MUST\", \"MUST NOT\", \"REQUIRED\", \"SHALL\", \"SHALL NOT\",",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 295,
+      "keyword": "SHALL NOT"
+    },
+    {
+      "id": "requirement:req-2",
+      "type": "requirement",
+      "name": "SHOULD NOT: \"SHOULD\", \"SHOULD NOT\", \"RECOMMENDED\", \"NOT RECOMMENDED\", \"MAY\", and",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 296,
+      "keyword": "SHOULD NOT"
+    },
+    {
+      "id": "requirement:req-3",
+      "type": "requirement",
+      "name": "MUST: they MUST contact the Data Controller to communicate the Data Subject's intent.",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 605,
+      "keyword": "MUST"
+    },
+    {
+      "id": "requirement:req-4",
+      "type": "requirement",
+      "name": "MUST: Transparency Service. Entities MUST ensure that their SCITT implementations are ",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 647,
+      "keyword": "MUST"
+    },
+    {
+      "id": "requirement:req-5",
+      "type": "requirement",
+      "name": "MUST: Entities MUST implement appropriate technical and organizational measures to pro",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 652,
+      "keyword": "MUST"
+    },
+    {
+      "id": "requirement:req-6",
+      "type": "requirement",
+      "name": "MUST: information. Implementers MUST ensure compliance with applicable privacy regulat",
+      "file": "draft-howe-vcon-lifecycle.md",
+      "line": 658,
+      "keyword": "MUST"
+    },
+    {
+      "id": "document:LICENSE",
+      "type": "document",
+      "name": "LICENSE",
+      "file": "LICENSE.md"
+    },
+    {
+      "id": "document:CONTRIBUTING",
+      "type": "document",
+      "name": "CONTRIBUTING",
+      "file": "CONTRIBUTING.md"
+    },
+    {
+      "id": "document:readme",
+      "type": "document",
+      "name": "README",
+      "file": "README.md"
+    }
+  ],
+  "edges": [
+    {
+      "from": "document:draft",
+      "to": "section:introduction",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:acts-of-trust-and-transparency",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:standards-based-interoperability",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:what-differentiates-scitt-from-a-database",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:conventions-and-definitions",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:vcon-lifecycle",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:example-use-case-consent-management",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:vcon-lifecycle-scope",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:creation-distribution-and-deletion",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:digital-rights-management",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:amendment-of-existing-vcons",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:detailed-use-case",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:vcon-create-consent-and-share",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:data-originator",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:data-controller",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:data-processor-s",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:revocation-and-the-right-to-be-forgotten",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:data-subject",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:data-controller-revocation",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:data-processor-revocation",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:vcon-lifecycle-events",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:security-considerations",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:privacy-considerations",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:iana-considerations",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:references",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:normative-references",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:informative-references",
+      "type": "contains"
+    },
+    {
+      "from": "document:draft",
+      "to": "section:acknowledgments",
+      "type": "contains"
+    }
+  ],
+  "subsystems": []
+}
