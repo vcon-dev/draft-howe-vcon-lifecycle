@@ -925,8 +925,8 @@ Table of Contents
    [vCon-white-paper]
               Howe, T., Petrie, D., Lieberman, M., and A. Quayle, "vCon:
               an Open Standard for Conversation Data", n.d.,
-              <https://github.com/vcon-dev/vcon/blob/main/docs/vCons_%20
-              an%20Open%20Standard%20for%20Conversation%20Data.pdf>.
+              <https://github.com/vcon-dev/vcon/blob/main/docs/
+              vCons_%20an%20Open%20Standard%20for%20Conversation%20Data.pdf>.
 
 Appendix A.  Acknowledgments
 
