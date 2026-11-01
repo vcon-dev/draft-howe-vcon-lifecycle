@@ -7,7 +7,7 @@ category: std
 docname: draft-howe-vcon-lifecycle-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
-date: 2026-05-04
+date: 2026-11-01
 consensus: true
 v: 3
 area: art
